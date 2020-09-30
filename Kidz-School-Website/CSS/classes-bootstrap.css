@@ -1,0 +1,28 @@
+/* Margin and Padding */
+.p-4{padding: 1.5rem !important;}
+.mt-2, .my-2 {margin-top: .5rem !important;}
+.mb-2, .my-2 {margin-bottom: .5rem !important;}
+
+/*CTA Button*/
+.btn-lg, .btn-group-lg > .btn {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+}
+
+/* Text Formatting */
+.text-uppercase{ text-transform: uppercase !important;}
+.font-weight-bold {font-weight: 700 !important;}
+
+/* Card Direction */
+@media (min-width: 576px){
+    .flex-sm-row{
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+}

@@ -1,0 +1,7 @@
+/* Margin */
+.pr-3, .px-3 {padding-right: 1rem !important;}
+.pl-3, .px-3 {padding-left: 1rem !important;}
+
+/* Inner Circle */
+.rounded-circle { border-radius: 50% !important ; -webkit-border-radius: 50% !important ; -moz-border-radius: 50% !important ; -ms-border-radius: 50% !important ; -o-border-radius: 50% !important ; }
+*, ::after, ::before {box-sizing: border-box;}

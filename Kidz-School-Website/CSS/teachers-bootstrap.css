@@ -1,0 +1,7 @@
+/* Margin and Padding */
+.pb-5, .py-5 {padding-bottom: 3rem !important;}
+.pt-5, .py-5 {padding-top: 3rem !important;}
+
+.m-3 {margin: 1rem !important;}
+.mt-1, .my-1 {margin-top: .25rem !important;}
+.mb-1, .my-1 {margin-bottom: .25rem !important;}

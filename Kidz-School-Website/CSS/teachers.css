@@ -1,0 +1,5 @@
+.avatar-size {width: 150px; height: 150px;}
+
+@media (min-width: 1024px){
+    .image-container{flex-direction: row;}
+}
