@@ -11,7 +11,7 @@ export const getData = async () => {
 
     const carts = await get("cart?customerId=1");
     const teachers = await get("teacher");
-    const ourclasses = await get("class/4");
+    const ourclasses = await get("class");
 
     let result = new DbResult();
 
