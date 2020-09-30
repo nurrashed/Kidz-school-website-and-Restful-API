@@ -1,4 +1,4 @@
-# Kidz-school-website-and-Restful-API-
+# Kidz-school-website-and-Restful-API-using TypeScript
 It will demonstrate my database skill and RESTful API using TypeScript
 
 I created the RESTful API using typescript. 
