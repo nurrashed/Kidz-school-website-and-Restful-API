@@ -4,14 +4,14 @@ import { OurClass } from "./ourclass";
 
 export class DbResult {
     //For Cart
-    private _cartsCount: number = 0;
+    private _cartCount: number = 0;
 
     public get cartCount(): number {
-        return this._cartsCount;
+        return this._cartCount;
     }
 
     public set cartCount(count: number) {
-        this._cartsCount = count;
+        this._cartCount = count;
     }
 
 
