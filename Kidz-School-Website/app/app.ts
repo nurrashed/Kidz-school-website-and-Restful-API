@@ -5,6 +5,7 @@ const main = async () => {
             console.log(data);
             
             const html = await import('./html');
+            
             html.displayCarts(data.cartCount);
             html.displayTeachers(data.teachers);
             html.displayOurclass(data.ourclasses);
