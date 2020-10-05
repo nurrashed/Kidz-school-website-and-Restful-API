@@ -7,7 +7,7 @@ export class Cart {
     description:string; 
 
     constructor(cart:any) {
-        this.classid = cart.Id;
+        this.classid = cart.ClassId;
         this.customerid = cart.CustomerId;
         this.price = cart.Price;
         this.count = cart.Count;
