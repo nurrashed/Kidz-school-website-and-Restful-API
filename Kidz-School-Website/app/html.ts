@@ -23,8 +23,8 @@ export const displayTeachers = (teachers:Array<Teacher>):void => {
     const teachersElement = document.getElementById('teacher-images');
     
     if(teachersElement !== null){
-        teachers.forEach((a:Teacher, idx:number) => {
-            teachersElement.innerHTML += a.html(`avatar-${idx + 1}`);
+        teachers.forEach((t:Teacher, idx:number) => {
+            teachersElement.innerHTML += t.html(`avatar-${idx + 1}`);
         }); 
     }
 }

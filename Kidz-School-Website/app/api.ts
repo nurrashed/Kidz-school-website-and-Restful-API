@@ -16,8 +16,8 @@ export const getData = async () => {
     let result = new DbResult();
 
     result.cartCount = carts.length;
-    teachers.forEach((a: any) => result.teachers.push(new Teacher(a)));
-    ourclasses.forEach((a: any) => result.ourclasses.push(new OurClass(a)));
+    teachers.forEach((t: any) => result.teachers.push(new Teacher(t)));
+    ourclasses.forEach((c: any) => result.ourclasses.push(new OurClass(c)));
 
     return result;
 };
